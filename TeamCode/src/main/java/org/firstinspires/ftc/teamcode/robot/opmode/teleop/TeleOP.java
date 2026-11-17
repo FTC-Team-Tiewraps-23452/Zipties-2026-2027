@@ -23,6 +23,7 @@ public class TeleOP extends OpMode {
 
     @Override
     public void loop() {
+        //TODO controls veranderen
         drivetrain.drive(gamepad1.left_stick_y, gamepad1.right_stick_x);
 
         if (gamepad1.left_trigger > 0.1) {
@@ -37,6 +38,7 @@ public class TeleOP extends OpMode {
             shooter.stop();
         }
 
+        //TODO marge groter maken
         if (shooter.getVelocity() >= 1140 && shooter.getVelocity() <= 1180) {
             storage.storage();
         } else {

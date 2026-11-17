@@ -19,6 +19,7 @@ public class Drivetrain {
     }
 
     public void drive (double leftY, double rightX) {
+        //TODO verander wat de voorkant is
         double leftPower = leftY + rightX;
         double rightPower = leftY - rightX;
 

@@ -10,6 +10,7 @@ public class Intake {
 
     }
 
+    //TODO verlaag intake snelheid
     public void intake () {
         intakeMotor.setPower(1);
     }
